@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+#father{
+    width: 635px;
+    height: 600px;
+    border: cadetblue dashed 3px;
+    font-size: 24px;
+    font-family: 华文仿宋;
+    overflow: hidden;
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+    margin-left: -19px;
+}
+
+#l1{
+    position: absolute;
+    top: 362px;
+    z-index: 999;
+    color: white;
+}
+
+#l2{
+    width: 635px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    opacity:70%;
+    top:362px ;
+}
+
+

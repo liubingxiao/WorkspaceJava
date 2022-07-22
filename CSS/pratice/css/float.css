@@ -1,0 +1,38 @@
+#box{
+
+    border: red solid 3px;
+
+}
+
+#box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#i1{
+
+    display: inline-block;
+    float: left;
+
+}
+
+#i2{
+    display: inline-block;
+    float: left;
+
+}
+
+#i3{
+    display: inline-block;
+    float: left;
+
+
+
+}
+
+#i4{
+    display: inline-block;
+    float: left;
+}
+

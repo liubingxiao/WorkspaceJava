@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单的练习</title>
+</head>
+<body>
+
+<form method="get" action="HtmlExe.html">
+    <p>姓名：&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="姓名" maxlength="10" size="20" placeholder="请输入姓名">
+    </p>
+    <p>年龄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="age" maxlength="3" required>
+    </p>
+    <p>家庭住址
+        <input type="text" name="address">
+    </p>
+
+    <p>
+        <input type="submit" name="submit">
+        <input type="reset">
+    </p>
+
+
+<!--    下拉框-->
+    <p>
+        <input type="radio" value="1" name="sex">男
+        <input type="radio" value="2" name="sex">女
+    </p>
+
+    <p>以下答案中，选其中几个<br>
+        <input type="checkbox" value="奖励50" name="test">A:奖励50<br>
+        <input type="checkbox" value="奖励60" name="test">B:奖励60<br>
+        <input type="checkbox" value="奖励70" name="test">C:奖励70<br>
+        <input type="checkbox" value="奖励80" name="test">D:奖励80<br>
+
+    </p>
+
+    <input type="button" value="闹钟" name="1111">
+
+    <p>开始计时
+        <input type="button" value="⏲" name="btn1">
+        <input type="image" value="刘炳霄" src="../resource/image/刘炳霄证件照.jpg"width="50"height="50">
+    </p>
+
+
+    <p>
+        <select name="来自">
+            <option value="china" selected>中国</option>
+            <option value="japan">日本</option>
+            <option value="usa">美国</option>
+            <option value="austrulia">澳大利亚</option>
+            <option value="els">俄罗斯</option>
+        </select>
+    </p>
+
+<!--    进行设置文本域-->
+    <p>
+        <textarea name="request" cols="30" rows="20">反馈</textarea>
+    </p>
+
+<!--    进行性设置文件域-->
+    <p>
+        <input type="file" name="file">
+    </p>
+
+    <p>
+        <input type="button" value="上传" name="upload">
+    </p>
+
+
+    <p>邮箱
+        <input type="email" name="email">
+    </p>
+
+    <p>网址
+        <input type="url" name="网址">
+    </p>
+
+    <p>员工数
+        <input type="number" name="员工数" max="100" min="0" step="1">
+    </p>
+
+</form>
+
+<!--滑块-->
+    <p>音量的大小
+        <input type="range" name="voice" min="0" max="100">
+    </p>
+<!--搜索框-->
+<p>霄霄的搜索引擎
+    <input type="search" name="search">
+</p>
+
+
+<p>以下三个选一个：
+    <input type="radio" value="liu na is sb" name="1"> A：刘娜
+    <input type="radio" value="liu na is sb" name="1"> B：刘炳霄
+    <input type="radio" value="liu na is sb"name="1"> C：亚林
+
+</p>
+
+
+
+</body>
+</html>

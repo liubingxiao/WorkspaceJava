@@ -1,0 +1,79 @@
+#box{
+    border: red solid 3px;
+    width: 320px;
+    height: 320px;
+}
+div{
+    margin: 10px;
+}
+
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    text-align: center;
+    line-height: 100px;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    left: 200px;
+    top: -110px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#div3{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    top: -20px;
+    line-height: 100px;
+
+}
+
+#div4{
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    left: 200px;
+    top: -130px;
+
+}
+#div5{
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    left: 100px;
+    top: -340px;
+
+}
+
+a{
+    text-decoration: none;
+}
+#div1:hover{
+    background-color: #0fcbcb;
+}
+#div2:hover{
+    background-color: #0fcbcb;
+}
+#div3:hover{
+    background-color: #0fcbcb;
+}
+#div4:hover{
+    background-color: #0fcbcb;
+}
+#div5:hover{
+    background-color: #0fcbcb;
+}

@@ -1,0 +1,52 @@
+#box{
+    width: 250px;
+    border:5px red solid ;
+    margin: 0 auto;
+
+}
+
+body{
+    margin: 0px;
+}
+
+div:nth-of-type(1) input{
+    border: 1px #afaeae solid;
+    margin-left: 30px;
+
+}
+div:nth-of-type(2) input{
+    border: 1px #afaeae solid;
+    margin-left: 30px;
+}
+
+form>h1{
+    margin-left: 0px;
+    font-size: 16px;
+    font-family: 华文仿宋;
+    color: red;
+}
+
+
+
+div:nth-of-type(3) p{
+    color: aliceblue;
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin-left: 80px;
+
+}
+
+.div2{
+    background:  url("../images/解密.png") no-repeat 35px;
+}
+
+#div1{
+    background: url("../images/个人中心.png") no-repeat 35px;
+}
+
+div:nth-of-type(3) p:hover{
+    color: blue;
+    text-decoration: underline;
+}

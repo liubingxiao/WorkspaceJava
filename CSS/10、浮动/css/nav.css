@@ -1,0 +1,41 @@
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#l1{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#l2{
+    display: inline-block;
+    margin-right: 15px;
+}
+#l3{
+    display: inline-block;
+    margin-right: 15px;
+}
+#l4{
+    display: inline-block;
+    margin-right: 15px;
+}
+#l5{
+    display: inline-block;
+    margin-right: 15px;
+}
+#l6{
+    display: inline-block;
+    margin-right: 15px;
+}
+#l7{
+    display: inline-block;
+    margin-right: 15px;
+}

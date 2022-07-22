@@ -1,0 +1,36 @@
+#nav{
+    width: 250px;
+
+}
+
+.title{
+    color: blue;
+    background-color: red;
+    border-radius: 30px;
+    text-indent: 2em;
+    text-align: left;
+    font-size: 24px;
+    font-family: 华文仿宋;
+    background: red url("../image/下箭头.png") 200px no-repeat;
+
+}
+
+ul li{
+    list-style: none;
+    height: 30px;
+    background-color: darkgray;
+    border-radius: 30px;
+    text-align: center;
+    background: darkgray url("../image/右箭头.png" ) 180px no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#l1{
+    float: left;
+    margin-right: 15px;
+}
+
+#l2{
+    float: left;
+    margin-right: 15px;
+}
+#l3{
+    float: left;
+    margin-right: 15px;
+}
+#l4{
+    float: left;
+    margin-right: 15px;
+}
+#l5{
+    float: left;
+    margin-right: 15px;
+}
+#l6{
+
+    float: left;
+    margin-right: 15px;
+}
+#l7{
+    float: left;
+    margin-right: 15px;
+}
